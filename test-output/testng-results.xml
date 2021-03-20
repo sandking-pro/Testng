@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35447" started-at="2021-03-20T13:32:03Z" finished-at="2021-03-20T13:32:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35447" started-at="2021-03-20T13:32:03Z" finished-at="2021-03-20T13:32:38Z">
+      <class name="org.starter.Adactin">
+        <test-method status="PASS" signature="browserLaunch0(java.lang.String)[pri:0, instance:org.starter.Adactin@4faf104]" name="browserLaunch0" is-config="true" duration-ms="11140" started-at="2021-03-20T13:32:03Z" finished-at="2021-03-20T13:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch0 -->
+        <test-method status="PASS" signature="tc1Login1(java.lang.String, java.lang.String)[pri:0, instance:org.starter.Adactin@4faf104]" name="tc1Login1" duration-ms="4204" started-at="2021-03-20T13:32:14Z" finished-at="2021-03-20T13:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prakash0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J5M3AD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1Login1 -->
+        <test-method status="PASS" signature="tc2SearchHotel2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.starter.Adactin@4faf104]" name="tc2SearchHotel2" duration-ms="4414" started-at="2021-03-20T13:32:18Z" finished-at="2021-03-20T13:32:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adelaide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21/03/2021]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[22/03/2021]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2SearchHotel2 -->
+        <test-method status="PASS" signature="tc3SelectHotel3()[pri:0, instance:org.starter.Adactin@4faf104]" name="tc3SelectHotel3" duration-ms="1421" started-at="2021-03-20T13:32:23Z" finished-at="2021-03-20T13:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3SelectHotel3 -->
+        <test-method status="PASS" signature="tc4BookHotel4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.starter.Adactin@4faf104]" name="tc4BookHotel4" duration-ms="14105" started-at="2021-03-20T13:32:24Z" finished-at="2021-03-20T13:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prakash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18 kodambakkam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789987654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2012]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[888]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4BookHotel4 -->
+      </class> <!-- org.starter.Adactin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

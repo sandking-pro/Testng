@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="url" value="http://adactinhotelapp.com/"></parameter>
+
+		<parameter name="username" value="prakash0"></parameter>
+		<parameter name="password" value="J5M3AD"></parameter>
+
+		<parameter name="location" value="Adelaide"></parameter>
+		<parameter name="hotel" value="Hotel Creek"></parameter>
+		<parameter name="roomtype" value="Deluxe"></parameter>
+		<parameter name="noofroom" value="4"></parameter>
+		<parameter name="checkin" value="21/03/2021"></parameter>
+		<parameter name="checkout" value="22/03/2021"></parameter>
+		<parameter name="apo" value="2"></parameter>
+		<parameter name="cpo" value="2"></parameter>
+		
+		<parameter name="fname" value="prakash"></parameter>
+		<parameter name="lname" value="kumar"></parameter>
+		<parameter name="address" value="18 kodambakkam"></parameter>
+		<parameter name="cc" value="123456789987654321"></parameter>
+		<parameter name="cct" value="VISA"></parameter>
+		<parameter name="ccm" value="4"></parameter>
+		<parameter name="ccy" value="2012"></parameter>
+		<parameter name="cvv" value="888"></parameter>
+		<classes>
+			<class name="org.starter.Adactin"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

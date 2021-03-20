@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="cc" value="123456789987654321"/>
+    <parameter name="apo" value="2"/>
+    <parameter name="fname" value="prakash"/>
+    <parameter name="noofroom" value="4"/>
+    <parameter name="cvv" value="888"/>
+    <parameter name="cpo" value="2"/>
+    <parameter name="address" value="18 kodambakkam"/>
+    <parameter name="ccm" value="4"/>
+    <parameter name="url" value="http://adactinhotelapp.com/"/>
+    <parameter name="roomtype" value="Deluxe"/>
+    <parameter name="password" value="J5M3AD"/>
+    <parameter name="lname" value="kumar"/>
+    <parameter name="checkin" value="21/03/2021"/>
+    <parameter name="cct" value="VISA"/>
+    <parameter name="ccy" value="2012"/>
+    <parameter name="hotel" value="Hotel Creek"/>
+    <parameter name="location" value="Adelaide"/>
+    <parameter name="checkout" value="22/03/2021"/>
+    <parameter name="username" value="prakash0"/>
+    <classes>
+      <class name="org.starter.Adactin">
+        <methods>
+          <include name="tc4BookHotel4" invocation-numbers="0"/>
+          <include name="browserLaunch0"/>
+        </methods>
+      </class> <!-- org.starter.Adactin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
